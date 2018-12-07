@@ -10,7 +10,7 @@ const {
 } = require('./utils')
 
 // TODO: update baseUrl
-const baseUrl = ''
+const baseUrl = 'https://t.sinchang.me'
 let [, , longLink, code] = process.argv
 const short = `/${code || generateCode()}`
 
